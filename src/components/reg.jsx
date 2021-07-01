@@ -13,7 +13,7 @@ class Reg extends Component {
   };
 
   canBeSubmitted() {
-    const { institution_address, institution_name } = this.state;
+    //const { institution_address, institution_name } = this.state;
     return (
       institution_name.length > 0 
     );
