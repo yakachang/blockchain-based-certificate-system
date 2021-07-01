@@ -9,11 +9,11 @@ class Reg extends Component {
   };
 
   state = {
-    email: "yichen@nlplab.cc"
+    email: ""
   };
 
   canBeSubmitted() {
-    //const { institution_address, institution_name } = this.state;
+    const { institution_address, institution_name } = this.state;
     return (
       institution_name.length > 0 
     );
