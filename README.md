@@ -22,12 +22,12 @@ To register in this system, all they need is to input the institution name. The 
 ### Step 4: Create certificate (Front-end)
 The institutions need to input the personal information of students (student's address, student ID, first name, last name), institution name (who award this certificate), and the date the certificate was awarded. When the institutions click the *Add certificate* button, the institution's account will make a transaction with the smart contract, *Certificate.sol*.
 
-### Step 5: View Certificate
+### Step 5: View Certificate (Front-end)
 This system will save the information of the lastest certificate temporary. That is after an institution created a certificate, they can see the detail in the function *View Certificate*.
 
-### Step 6: Verify
+### Step 6: Verify (Front-end)
 The value of the transaction hash can be utilized to prove whether this certificate is real or not. When people input the value of the transaction hash value and click the button *Verify*. Then the website will connect to *Etherscan* (https://ropsten.etherscan.io/) automatically and shows the transaction details.
 
-### Step 7: Verify Info
+### Step 7: Verify Info (Front-end)
 The value of the digital certificate number can be utilized to verify the detail of this certificate. People can input the value of the digital certificate number and click the button *Verify*. Then the website will show the information of the certificate correspond to the digital certificate number automatically.
 
