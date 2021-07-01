@@ -1,12 +1,13 @@
 # Blockchain-based-certificate-system
 
 This project is for certificate verification with Blockchain technology.\
-And, it is bootstrapped with React App.\
+And, it is bootstrapped with React App.
 
 ## Tutorial
 
 ### Step 1: Sign in
-You can install the *Metamask* extension in chrome browser and sign in *Ethereum* account.
+You can install the [Metamask](https://metamask.io/) extension in chrome browser and sign in *Ethereum* account.\
+Select the mode *Ropsten Test Network*.
 
 ### Step 2: Run the code
 In the projec directory, you can use the following commands to run this code:\
@@ -15,9 +16,7 @@ Then, run `npm start` on the command line to run the app in the development mode
 You will see it in the browser.
 
 ### Step 3: Register (Front-end)
-In order to prevent fake certificate, we hope that all certificates are upload to the blockchain by institution who awarded the certificate.\
-Hence, institutions must have a account in the Ethereum and sign in such account.\
-To register in this system, all they need is to input the institution name. The system will save the institution name and the account that is connecting when the institutions register.
+In order to prevent fake certificate, we hope that all certificates are upload to the blockchain by institution who awarded the certificate. Hence, institutions must have a account in the Ethereum and sign in such account. To register in this system, all they need is to input the institution *name*. The system will save the institution name and the account that is connecting when the institutions register.
 
 ### Step 4: Create certificate (Front-end)
 The institutions need to input the personal information of students (student's address, student ID, first name, last name), institution name (who award this certificate), and the date the certificate was awarded. When the institutions click the *Add certificate* button, the institution's account will make a transaction with the smart contract, *Certificate.sol*.
