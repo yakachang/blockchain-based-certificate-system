@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { Form, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import "../certstyle.css";
-import printJs from "print-js";
+//import printJs from "print-js";
 import bg from "../image/bg.jpeg";
 
 class Certificate extends Component {
