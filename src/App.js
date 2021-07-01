@@ -89,7 +89,7 @@ class App extends Component {
   };
 
   Certificate_add = data => {
-    var name = data.first_name + " " + data.last_name;
+    //var name = data.first_name + " " + data.last_name;
     certcontract.methods.add_certificate(data.student_address, data.studentID, data.first_name, data.last_name, data.institution_name, data.date).send(
       {
         from: this.state.account,
