@@ -1,7 +1,9 @@
 # Blockchain-based-certificate-system
 
 This project is for certificate verification with Blockchain technology.\
-And, it is bootstrapped with React App.
+And, it is bootstrapped with React App.\
+You can directly connect this project on the website: https://blockchain-based-certificate-system.netlify.app/.
+
 
 ## Tutorial
 
